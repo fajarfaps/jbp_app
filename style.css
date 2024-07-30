@@ -1,0 +1,80 @@
+body {
+    background: url('background-image.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #ff8000;
+}
+
+.card-title {
+    color: #ff8000;
+}
+
+.card-text {
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 50px;
+    width: 40px;
+}
+
+.carousel-indicators button {
+    background-color: #ff8000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.banner-img {
+    height: 40px;
+    object-fit: cover;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+.card small {
+    color: #6c757d;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
